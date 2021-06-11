@@ -1,7 +1,8 @@
+# Working-Link 
+https://heuristic-sinoussi-6d5b5a.netlify.app
+
 # js-music-player
 This is a simple User Interface of a music player created in HTML, CSS and JavaScript.
-
-![Output](/output/html-css.png)
 
 ## Running the player
 

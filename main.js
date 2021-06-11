@@ -24,7 +24,7 @@ let track_list = [
   
   {
     name: "Space Trip Mix",
-    artist: "",
+    artist: "Artur",
     image: "1They-Live.png" ,
     path: "SpaceTripMix.mp3"
   },
@@ -39,6 +39,12 @@ let track_list = [
     artist: "The 80's Guy",
     image: "DarkSide.jpg",
     path: "Dark-Side-mix.mp3",
+  },
+  {
+    name: "DEPARTURE Mix",
+    artist: "Artur",
+    image: "Departure.jpg",
+    path: "Departure.mp3",
   },
 ];
 

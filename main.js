@@ -21,12 +21,7 @@ let curr_track = document.createElement('audio');
 
 // Define the tracks that have to be played
 let track_list = [
-  {
-    name: "Hate It When you leave",
-    artist: "Keith Richards",
-    image: "KeithRichards2.jpg",
-    path: "Hate It When You Leave.mp3"
-  },
+  
   {
     name: "Space Trip Mix",
     artist: "",
@@ -34,10 +29,16 @@ let track_list = [
     path: "SpaceTripMix.mp3"
   },
   {
-    name: "Shipping Lanes",
-    artist: "Chad Crouch",
-    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
+    name: "NIGHTLAPSE Mix",
+    artist: "Astral Throb",
+    image: "NIGHTLAPSEcover.jpg",
+    path: "NIGHTLAPSE.mp3",
+  },
+  {
+    name: "Dark Side Mix",
+    artist: "The 80's Guy",
+    image: "DarkSide.jpg",
+    path: "Dark-Side-mix.mp3",
   },
 ];
 

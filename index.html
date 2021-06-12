@@ -9,8 +9,52 @@
 
   <!-- Load the custom CSS style file -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <!--This section is for the style that displays on the right when the user clicks the timer dropdown -->
+  <style>
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>
 </head>
 <body>
+  <!--This is for the the timer that displays on the right-->
+  <div class="dropdown" style="float:right;">
+    <button class="dropbtn">Timer</button>
+    <div class="dropdown-content">
+      <a href="#">Content</a>
+    </div>
+  </div>
   <div class="player">
     <div class="details">
       <div class="now-playing">PLAYING x OF y</div>
@@ -34,6 +78,9 @@
       <i class="fa fa-volume-up"></i>
     </div>
   </div>
+
+
+ 
 
   <!-- Load the main script for the player -->
   <script src="main.js"></script>

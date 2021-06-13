@@ -134,7 +134,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;
   border: 1px solid #fff;
 }
-.right-timer {
+.left-timer {
   position: absolute;
   display: inline-block;
 }
@@ -228,7 +228,7 @@ progress::-webkit-progress-value {
 .clock {
   margin-top: 50px;
   margin-bottom: 30px;
-  font-size: 5rem;
+  font-size: 2rem;
   line-height: 1;
   display: center;
   align-items: center;

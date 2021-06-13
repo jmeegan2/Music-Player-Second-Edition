@@ -151,5 +151,17 @@ function seekUpdate() {
     total_duration.textContent = durationMinutes + ":" + durationSeconds;
   }
 }
+/* For timer functionality */
+const buttonSound = new Audio('button-sound.mp3');
+  const mainButton = document.getElementById('js-btn');
+  mainButton.addEventListener('click', () => {
+    buttonSound.play();
+    const { action } = mainButton.dataset;
+    if (action === 'start') {
+      startTimer();
+    } else {
+      stopTimer();
+    }
+  });
 
 

@@ -219,24 +219,28 @@ progress::-webkit-progress-value {
 
 .timer {
   position: absolute;
-  top: 50%;
+  top: 0%;
   left: 50%;
+
   transform: translate(-40%, -20%);
   padding: 0px;
   text-align: center;
+  /*background-color: wheat;*/
 }
 
 .clock {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
   font-size: 22px;
   line-height: 1;
   display: center;
   align-items: center;
   font-family: arial, sans-serif;
+  color: white;
 }
 
 .mode-button {
+  transform: translate(0%, 140%);
   font-size: 16px;
   height: 28px;
   cursor: pointer;
@@ -258,7 +262,7 @@ progress::-webkit-progress-value {
   cursor: pointer;
   box-shadow: rgb(235, 235, 235) 0px 6px 0px;
   font-size: 22px;
-  height: 55px;
+  height: 35px;
   text-transform: uppercase;
   color: hsl(175, 26%, 41%);
   font-weight: bold;
@@ -277,7 +281,7 @@ button:focus, button:active {
 }
 
 .main-button.active {
-  transform: translateY(6px);
+  
   box-shadow: none;
   outline: none;
 }

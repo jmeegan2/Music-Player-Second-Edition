@@ -126,7 +126,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   width: 1000px;
   margin: 0 auto;
 }
-.menu-button {
+.timer-button {
   background-color: black;
   color: white;
   padding: 16px;
@@ -134,32 +134,34 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;
   border: 1px solid #fff;
 }
-.right-menu {
+.right-timer {
   position: absolute;
   display: inline-block;
-  float: right;
 }
-.dropdown-menu {
+.dropdown-timer {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
+  font-size: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.dropdown-menu a {
+.dropdown-timer a {
   color:black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-.dropdown-menu a:hover {
-  background-color: #000;
+/* May not need, I'll keep for now though in case i do later on 6/13/21
+.dropdown-timer a:hover {
+  background-color: white;
   color: #fff 
 }
-.right-menu:hover .dropdown-menu {
+*/
+.right-timer:hover .dropdown-timer {
   display: block;
 }
-.right-menu:hover .menu-button {
+.right-timer:hover .timer-button {
   background-color: transparent;
 }

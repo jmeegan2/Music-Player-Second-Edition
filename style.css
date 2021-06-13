@@ -159,9 +159,29 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   color: #fff 
 }
 */
-.right-timer:hover .dropdown-timer {
+.left-timer:hover .dropdown-timer {
   display: block;
 }
-.right-timer:hover .timer-button {
+.left-timer:hover .timer-button {
   background-color: transparent;
+}
+
+/* This is used for the clock and timer */
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+}
+
+.clock {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 5rem;
+  line-height: 1;
+  display: center;
+  align-items: center;
+  font-family: arial, sans-serif;
 }

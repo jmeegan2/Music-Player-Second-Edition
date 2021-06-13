@@ -215,7 +215,7 @@ progress::-webkit-progress-value {
   top: 0%;
   left: 50%;
 
-  transform: translate(-40%, -20%);
+  transform: translate(-42%, -20%);
   padding: 25px;
   text-align: center;
   
@@ -238,10 +238,9 @@ progress::-webkit-progress-value {
   height: 38px;
   cursor: pointer;
   box-shadow: none;
-  
   color:white;
   border: 2px solid transparent;
-  margin: 2px;
+  margin: 0px;
   border-radius: 10px;
 
   background: red;
@@ -264,7 +263,7 @@ progress::-webkit-progress-value {
   border-width: initial;
   border-style: none;
   margin: 20px 0px 0px;
-  padding: 0px 12px;
+  padding: 0px 0px;
   border-radius: 4px;
   transition: color 0.5s ease-in-out 0s;
 }

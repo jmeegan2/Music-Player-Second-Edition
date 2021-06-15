@@ -153,8 +153,8 @@ function seekUpdate() {
 }
 /* For timer functionality */
 const timer = {
-  pomodoro: 25,
-  shortBreak: 5,
+  pomodoro: 35,
+  shortBreak: 8,
   longBreak: 15,
   longBreakInterval: 4,
   sessions: 0,

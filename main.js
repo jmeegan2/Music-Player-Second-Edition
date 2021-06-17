@@ -46,6 +46,12 @@ let track_list = [
     image: "Departure.jpg",
     path: "Departure.mp3",
   },
+  {
+    name: "Gymnopedie no.1",
+    artist: "Erik Satie",
+    image: "ErikSatie.jpeg",
+    path: "Gymnopeide.mp3",
+  },
 ];
 
 function random_bg_color() {

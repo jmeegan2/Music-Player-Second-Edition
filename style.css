@@ -214,11 +214,11 @@ progress::-webkit-progress-value {
   position: absolute;
   top: 0%;
   left: 50%;
-
+  color: white;
   transform: translate(-42%, -20%);
   padding: 25px;
   text-align: center;
-  
+  background-color: white;
 }
 
 .clock {
@@ -230,6 +230,7 @@ progress::-webkit-progress-value {
   align-items: center;
   font-family: arial, sans-serif;
   color: black;
+  
 }
 
 .mode-button {
@@ -259,7 +260,7 @@ progress::-webkit-progress-value {
   color: hsl(175, 26%, 41%);
   font-weight: bold;
   width: 200px;
-  background-color: white;
+  background-color: black;
   border-width: initial;
   border-style: none;
   margin: 20px 0px 0px;

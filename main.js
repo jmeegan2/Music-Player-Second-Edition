@@ -47,10 +47,10 @@ let track_list = [
     path: "Departure.mp3",
   },
   {
-    name: "Gymnopedie no.1",
+    name: "Gymnopedie No.1",
     artist: "Erik Satie",
-    image: "ErikSatie.jpeg",
-    path: "Gymnopeide.mp3",
+    image: "ErikSatieFormatted.jpg",
+    path: "Gymnopedie.mp3",
   },
 ];
 

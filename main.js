@@ -22,17 +22,18 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   
+  
+  {
+    name: "NIGHTLAPSE Mix",
+    artist: "Astral",
+    image: "NIGHTLAPSEcover.jpg",
+    path: "NIGHTLAPSE.mp3",
+  },
   {
     name: "Space Trip Mix",
     artist: "Artur",
     image: "1They-Live.png" ,
     path: "SpaceTripMix.mp3"
-  },
-  {
-    name: "NIGHTLAPSE Mix",
-    artist: "Astral Throb",
-    image: "NIGHTLAPSEcover.jpg",
-    path: "NIGHTLAPSE.mp3",
   },
   {
     name: "Dark Side Mix",

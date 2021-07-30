@@ -126,25 +126,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   width: 1000px;
   margin: 0 auto;
 }
-.timer-button {
-  background-color: black;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  cursor: pointer;
-  border: 1px solid #fff;
-}
-.left-timer {
-  position: absolute;
-  display: inline-block;
-}
-.dropdown-timer {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  font-size: 60px;   /* This changed how close together my pomo & break buttons were */
-}
+
 
 /* May not need, I'll keep for now though in case i do later on 6/13/21
 .dropdown-timer a:hover {
@@ -209,7 +191,20 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
   background-color: #fff;
 }
-
+/* Inside of dropdown timer */
+.left-timer {
+  position: absolute;
+  display: inline-block;
+}
+/* Inside of dropdown timer */
+.dropdown-timer {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  font-size: 60px;   /* This changed how close together my pomo & break buttons were */
+}
+/* Inside of dropdown timer */
 .timer {
   position: absolute;
   top: 0%;
@@ -221,6 +216,7 @@ progress::-webkit-progress-value {
   background-color: white;
 }
 
+/* Inside of dropdown timer */
 .clock {
   margin-top: 60px;
   margin-bottom: 0px;
@@ -233,6 +229,7 @@ progress::-webkit-progress-value {
   
 }
 
+/* Inside of dropdown timer */
 .mode-button {
   transform: translate(0%, 140%);
   font-size: 26px;

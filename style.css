@@ -37,12 +37,16 @@ body {
   border-radius: 15%;
 }
 
+/* This is for the text that says what track is playing out of the 
+   number of tracks that is available for example Playing One of Five. */
 .now-playing {
+ 
   font-size: 1rem;
+  align-items: right;
 }
 
 .track-name {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .track-artist {
@@ -176,13 +180,7 @@ body {
 }
 
 
-progress {
-  border-radius: 2px;
-  width: 100%;
-  height: 12px;
-  position: fixed;
-  top: 0;
-}
+
 
 progress::-webkit-progress-bar {
  background-color: rgba(0, 0, 0, 0.1);;
@@ -190,6 +188,14 @@ progress::-webkit-progress-bar {
 
 progress::-webkit-progress-value {
   background-color: #fff;
+}
+/* Inside of dropdown timer */
+progress {
+  border-radius: 2px;
+  width: 100%;
+  height: 12px;
+  position: fixed;
+  top: 0;
 }
 /* Inside of dropdown timer */
 .left-timer {

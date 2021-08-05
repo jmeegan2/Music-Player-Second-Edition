@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,65 +11,53 @@
   <!-- Load the custom CSS style file -->
   <link rel="stylesheet" type="text/css" href="style.css">
   <!--This section is for the style that displays on the right when the user clicks the timer dropdown -->
-  
-  
-  <main class="app">
-    <div class= left-timer>
-      <button class="main-button">Timer</button>
-     <div class="dropdown-timer">
-       <progress id="js-progress" value="0"></progress>
-       <div class="progress-bar"></div>
-       <div class="timer">
-         <div class="button-group mode-buttons" id="js-mode-buttons">
-           <button
-             data-mode="pomodoro"
-             class="button active mode-button"
-             id="js-pomodoro"
-           >
-           Pomodoro
-          </button>
-          <button
-            data-mode="shortBreak"
-            class="button mode-button"
-            id="js-short-break"
-          >
-            Short break
-          </button>
-          <button
-            data-mode="longBreak"
-            class="button mode-button"
-            id="js-long-break"
-          >
-            Long break
-          </button>
-        </div>
-        <div class="clock" id="js-clock">
-          <span id="js-minutes">35</span>
-          <span class="separator">:</span>
-          <span id="js-seconds">00</span>
-        </div>
-        <button class="main-button" data-action="start" id="js-btn">
-          Start
-        </button>
-      </div>
-    </main>
-    <div class="hidden">
-      <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
-      <audio src="break.mp3" data-sound="shortBreak"></audio>
-      <audio src="break.mp3" data-sound="longBreak"></audio>
-    </div>
 
- 
-        
-<!--This is where the display for the music player is -->
+
+  <main class="app">
+    <div class=left-timer>
+      <button class="main-button">Timer</button>
+      <div class="dropdown-timer">
+        <progress id="js-progress" value="0"></progress>
+        <div class="progress-bar"></div>
+        <div class="timer">
+          <div class="button-group mode-buttons" id="js-mode-buttons">
+            <button data-mode="pomodoro" class="button active mode-button" id="js-pomodoro">
+              Pomodoro
+            </button>
+            <button data-mode="shortBreak" class="button mode-button" id="js-short-break">
+              Short break
+            </button>
+            <button data-mode="longBreak" class="button mode-button" id="js-long-break">
+              Long break
+            </button>
+          </div>
+          <div class="clock" id="js-clock">
+            <span id="js-minutes">35</span>
+            <span class="separator">:</span>
+            <span id="js-seconds">00</span>
+          </div>
+          <button class="main-button" data-action="start" id="js-btn">
+            Start
+          </button>
+        </div>
+  </main>
+  <div class="hidden">
+    <audio src="music/backtowork.mp3" data-sound="pomodoro"></audio>
+    <audio src="music/break.mp3" data-sound="shortBreak"></audio>
+    <audio src="music/break.mp3" data-sound="longBreak"></audio>
+  </div>
+
+
+
+  <!--This is where the display for the music player is -->
   </div>
   <div class="player">
     <div class="details">
       <div class="track-art"></div>
       <div class="track-name">Track Name</div>
       <div class="track-artist">Track Artist</div>
-        <!-- This section is not formatted properly atm -->
-          
+      <!-- This section is not formatted properly atm -->
+
       <div class="now-playing">PLAYING x OF y</div>
     </div>
     <div class="buttons">
@@ -89,9 +78,10 @@
   </div>
 
 
- 
+
 
   <!-- Load the main script for the player -->
   <script src="main.js"></script>
-</body>
+  </body>
+
 </html>

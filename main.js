@@ -26,32 +26,32 @@ let track_list = [
   {
     name: "NIGHTLAPSE Mix",
     artist: "Astral",
-    image: "NIGHTLAPSEcover.jpg",
-    path: "NIGHTLAPSE.mp3",
+    image: "img/NIGHTLAPSEcover.jpg",
+    path: "music/NIGHTLAPSE.mp3",
   },
   {
     name: "Space Trip Mix",
     artist: "Artur",
-    image: "1They-Live.png" ,
-    path: "SpaceTripMix.mp3"
+    image: "img/1They-Live.png" ,
+    path: "music/SpaceTripMix.mp3"
   },
   {
     name: "Dark Side Mix",
     artist: "The 80's Guy",
-    image: "DarkSide.jpg",
-    path: "Dark-Side-mix.mp3",
+    image: "img/DarkSide.jpg",
+    path: "music/Dark-Side-mix.mp3",
   },
   {
     name: "DEPARTURE Mix",
     artist: "Artur",
-    image: "Departure.jpg",
-    path: "Departure.mp3",
+    image: "img/Departure.jpg",
+    path: "music/Departure.mp3",
   },
   {
     name: "Gymnopedie No.1",
     artist: "Erik Satie",
-    image: "ErikSatieFormatted.jpg",
-    path: "Gymnopedie.mp3",
+    image: "img/ErikSatieFormatted.jpg",
+    path: "music/Gymnopedie.mp3",
   },
 ];
 
@@ -169,7 +169,7 @@ const timer = {
 
 let interval;
 
-const buttonSound = new Audio('button-sound.mp3');
+const buttonSound = new Audio('music/button-sound.mp3');
 const mainButton = document.getElementById('js-btn');
 mainButton.addEventListener('click', () => {
   buttonSound.play();

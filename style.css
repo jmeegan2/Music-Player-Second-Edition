@@ -297,3 +297,15 @@ button:focus, button:active {
     height: 85vh;
   }
 }
+@media screen and (max-width: 600px) {
+  .track-art {
+    height: 200px;
+    width: 200px;
+  }
+}
+/* .control-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+} */

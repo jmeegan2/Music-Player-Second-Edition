@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Player</title>
-  <link rel="shortcut icon" type="image/jpg" href="img/favicon music.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon music.png" />
   <!-- Load FontAwesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
@@ -46,7 +46,7 @@
             Start
           </button>
         </div> -->
-        <!-- END of Timer Code -->
+    <!-- END of Timer Code -->
   </main>
   <div class="hidden">
     <audio src="music/backtowork.mp3" data-sound="pomodoro"></audio>
@@ -60,7 +60,7 @@
   </div>
   <div class="player">
     <div class="details">
-    
+
       <div class="track-art">
       </div>
       <div class="track-name">Track Name</div>
@@ -69,6 +69,7 @@
 
       <div class="now-playing">PLAYING x OF y</div>
     </div>
+    <!-- <div class="control-section"> -->
     <div class="buttons">
       <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
       <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
@@ -84,6 +85,7 @@
       <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
       <i class="fa fa-volume-up"></i>
     </div>
+  </div>
   </div>
 
 

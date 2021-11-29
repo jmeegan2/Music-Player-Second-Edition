@@ -65,6 +65,12 @@ let track_list = [
     image: "img/progressive-mix-pic.jpg",
     path: "music/Progressive Mix III.mp3",
   },
+  {
+    name: "Hate It When You Leave",
+    artist: "Keith Richards",
+    image: "img/keith-richards-crazy.jpg",
+    path: "music/Hate It When You Leave.mp3",
+  },
 ];
 
 function random_bg_color() {

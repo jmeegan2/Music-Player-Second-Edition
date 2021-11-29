@@ -291,3 +291,9 @@ button:focus, button:active {
     font-size: 8rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .player {
+    height: 85vh;
+  }
+}

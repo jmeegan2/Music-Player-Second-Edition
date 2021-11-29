@@ -53,6 +53,18 @@ let track_list = [
     image: "img/ErikSatieFormatted.jpg",
     path: "music/Gymnopedie.mp3",
   },
+  {
+    name: "BTS lofi playlist",
+    artist: "Unknown Artist",
+    image: "img/bts-lofi.jpg",
+    path: "music/bts lofi playlist - smyang.mp3",
+  },
+  {
+    name: "Progressive Mix",
+    artist: "Unknown Artist",
+    image: "img/progressive-mix-pic.jpg",
+    path: "music/Progressive Mix III.mp3",
+  },
 ];
 
 function random_bg_color() {

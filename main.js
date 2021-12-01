@@ -71,6 +71,12 @@ let track_list = [
     image: "img/keith-richards-crazy.jpg",
     path: "music/Hate It When You Leave.mp3",
   },
+  {
+    name: "Memories",
+    artist: "Asthenic",
+    image: "img/Memories-Dash.jpg",
+    path: "music/ＭＥＭＯＲＩＥＳ [ Synthwave - Dreamwave - Retrowave Mix ].mp3 (1).crdownload",
+  },
 ];
 
 // function random_bg_color() {

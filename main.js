@@ -73,19 +73,19 @@ let track_list = [
   },
 ];
 
-function random_bg_color() {
+// function random_bg_color() {
 
-  // Get a number between 64 to 256 (for getting lighter colors)
-  let red = Math.floor(Math.random() * 256) + 64;
-  let green = Math.floor(Math.random() * 256) + 64;
-  let blue = Math.floor(Math.random() * 256) + 64;
+//   // Get a number between 64 to 256 (for getting lighter colors)
+//   let red = Math.floor(Math.random() * 256) + 64;
+//   let green = Math.floor(Math.random() * 256) + 64;
+//   let blue = Math.floor(Math.random() * 256) + 64;
 
-  // Construct a color withe the given values
-  let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
+//   // Construct a color withe the given values
+//   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
-  // Set the background to that color
-  document.body.style.background = bgColor;
-}
+//   // Set the background to that color
+//   document.body.style.background = bgColor;
+// }
 
 function loadTrack(track_index) {
   clearInterval(updateTimer);
@@ -99,8 +99,8 @@ function loadTrack(track_index) {
   now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + track_list.length;
 
   updateTimer = setInterval(seekUpdate, 1000);
-  curr_track.addEventListener("ended", nextTrack);
-  random_bg_color();
+  // curr_track.addEventListener("ended", nextTrack);
+  // random_bg_color();
 }
 
 function resetValues() {

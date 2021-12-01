@@ -13,7 +13,7 @@ body {
 }
 
 .player {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -29,8 +29,8 @@ body {
 }
 
 .track-art {
-  width: 375px;
-  height:375px;
+  width: 300px;
+  height:300px;
   margin: 0;
   background-image: url("https://images.pexels.com/photos/262034/pexels-photo-262034.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-size: cover;
@@ -85,8 +85,8 @@ body {
   -moz-appearance: none;
   appearance: none;
   height: 5px;
-  background: black;
-  opacity: 0.7;
+  background: white;
+  opacity: .21;
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
@@ -173,8 +173,8 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
 }
 
 body {
-  
-
+  color:white;
+background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   user-select: none;
 }
@@ -184,6 +184,7 @@ body {
 
 progress::-webkit-progress-bar {
  background-color: rgba(0, 0, 0, 0.1);;
+ 
 }
 
 progress::-webkit-progress-value {
@@ -297,11 +298,17 @@ button:focus, button:active {
     height: 85vh;
   }
 }
+@media screen and (max-width: 750px) {
+  .track-art {
+    height: 250px;
+    width: 250px;
+  }
 @media screen and (max-width: 600px) {
   .track-art {
     height: 200px;
     width: 200px;
   }
+ 
  
 }
 /* .control-section {

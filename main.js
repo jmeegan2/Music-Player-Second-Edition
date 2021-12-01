@@ -26,7 +26,7 @@ let track_list = [
   {
     name: "NIGHTLAPSE Mix",
     artist: "Astral",
-    image: "img/nightlapse-new.jpg",
+    image: "img/nightlapse-new-2.jpg",
     path: "music/NIGHTLAPSE.mp3",
   },
   {

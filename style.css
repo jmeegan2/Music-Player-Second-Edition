@@ -39,18 +39,18 @@ body {
 
 /* This is for the text that says what track is playing out of the 
    number of tracks that is available for example Playing One of Five. */
-.now-playing {
- 
+/* .now-playing {
+  
   font-size: 1rem;
   align-items: right;
-}
+} */
 
 .track-name {
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 .track-artist {
-  font-size: 1.5rem;
+  font-size: 15px;
 }
 
 .buttons {

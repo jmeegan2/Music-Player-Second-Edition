@@ -316,6 +316,18 @@ li {
   display: list-item;
   list-style-position: inside;
 }
+.song-list-header {
+  font-style: italic;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: grid;
+  /* grid-template-columns:auto auto auto auto; */
+  grid-template-columns:5% 40% 25% 10%;'
+  padding-top: 30px;
+}
 .song-list {
   font-size: small;
   display: flex;
@@ -325,6 +337,6 @@ li {
   display: grid;
   /* grid-template-columns:auto auto auto auto; */
   grid-template-columns:5% 40% 25% 10%;
-  padding-top: 30px;
+  
 }
 

@@ -312,3 +312,7 @@ button:focus, button:active {
  
 }
 }
+li {
+  display: list-item;
+  list-style-position: inside;
+}

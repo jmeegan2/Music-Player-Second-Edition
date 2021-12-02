@@ -329,6 +329,7 @@ li {
   padding-top: 30px;
 }
 .song-list {
+  line-height: 2;
   font-size: small;
   display: flex;
   align-items: center;

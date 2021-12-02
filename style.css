@@ -316,12 +316,15 @@ li {
   display: list-item;
   list-style-position: inside;
 }
-/* .song-list {
+.song-list {
+  font-size: small;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   display: grid;
-  grid-template-columns: 160px 40px 200px 200px 200px
-} */
+  /* grid-template-columns:auto auto auto auto; */
+  grid-template-columns:5% 40% 25% 10%;
+  padding-top: 30px;
+}
 

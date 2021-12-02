@@ -317,6 +317,10 @@ li {
   list-style-position: inside;
 }
 .song-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px
+  grid-template-columns: 160px 40px 200px 200px 200px
 }

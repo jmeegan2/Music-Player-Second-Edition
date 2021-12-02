@@ -325,7 +325,7 @@ li {
   justify-content: center;
   display: grid;
   /* grid-template-columns:auto auto auto auto; */
-  grid-template-columns:5% 40% 25% 10%;'
+  grid-template-columns:5% 40% 25% 10%;
   padding-top: 30px;
 }
 .song-list {

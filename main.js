@@ -72,10 +72,10 @@ let track_list = [
     path: "music/Hate It When You Leave.mp3",
   },
   {
-    name: "Memories",
-    artist: "Asthenic",
-    image: "img/Memories-Dash.jpg",
-    path: "music/memories.mp3",
+    name: "Calm Piano",
+    artist: "Unknown",
+    image: "img/piano-beige.jpg",
+    path: "music/calm-piano.mp3",
   },
 ];
 

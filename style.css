@@ -316,3 +316,7 @@ li {
   display: list-item;
   list-style-position: inside;
 }
+.song-list {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px
+}

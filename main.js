@@ -24,6 +24,7 @@ let track_list = [
   
   
   {
+    
     name: "NIGHTLAPSE Mix",
     artist: "Astral",
     image: "img/nightlapse-new-2.jpg",
@@ -93,6 +94,7 @@ let track_list = [
 // }
 
 function loadTrack(track_index) {
+  
   clearInterval(updateTimer);
   resetValues();
   curr_track.src = track_list[track_index].path;
@@ -106,7 +108,8 @@ function loadTrack(track_index) {
   updateTimer = setInterval(seekUpdate, 1000);
   curr_track.addEventListener("ended", nextTrack);
   // random_bg_color();
-}
+  }
+
 
 function resetValues() {
   curr_time.textContent = "00:00";
@@ -181,3 +184,32 @@ function seekUpdate() {
     total_duration.textContent = durationMinutes + ":" + durationSeconds;
   }
 }
+
+
+function play() {
+  var audio = document.getElementById("audio");
+  audio.play();
+}
+// this will cause new song to play
+// var audio = new audio("music/Gymnopedie.mp3");
+
+// document.onclick = function() {
+//   audio.play();
+// }
+// if (value=5){
+//     clearInterval(updateTimer);
+//     resetValues();
+//     curr_track.src = track_list[track_index].path;
+//     curr_track.load();
+//     var audio = new song("music/Gymnopedie.mp3");
+//     audio.play();
+//     track_art.style.backgroundImage = "img/ErikSatieFormatted.jpg";
+//     track_name.textContent = "Gymnopedie No.1";
+//     track_artist.textContent = "Erik";
+//     // now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + track_list.length;
+  
+//     updateTimer = setInterval(seekUpdate, 1000);
+//     curr_track.addEventListener("ended", nextTrack);
+//     // random_bg_color();
+//   }
+//   else{

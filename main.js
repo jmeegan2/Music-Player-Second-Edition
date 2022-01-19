@@ -73,10 +73,22 @@ let track_list = [
     path: "music/Hate It When You Leave.mp3",
   },
   {
-    name: "Calm Piano",
+    name: "Calm Piano Compilation",
     artist: "Unknown",
     image: "img/piano-beige.jpg",
     path: "music/calm-piano.mp3",
+  },
+  {
+    name: "Mariage d'amour",
+    artist: "Paul de Senneville",
+    image: "img/piano.jpg",
+    path: "music/Mariage d'Amour - Paul de Senneville __ Jacob's Piano.mp3",
+  },
+  {
+    name: "Canon in D",
+    artist: "Johann Pachelbel",
+    image: "img/CanonInD.jpg",
+    path: "music/Johann Pachelbel - Canon in D __ Jacob's Piano.mp3",
   },
 ];
 // function random_bg_color() {

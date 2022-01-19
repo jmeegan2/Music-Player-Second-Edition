@@ -142,6 +142,11 @@ function playTrack() {
   isPlaying = true;
   playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
 }
+function playTrackListSong() {
+  loadTrack();
+  isPlaying = true;
+  playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+}
 
 function pauseTrack() {
   curr_track.pause();
